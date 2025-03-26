@@ -4,6 +4,7 @@ Repositório da disciplina front-end
 
 Integrantes do grupo:
 - Bruno Carvalho Pessoa
+- Cauan Magalhães Baptista
 - Antônio Lima
 
 
