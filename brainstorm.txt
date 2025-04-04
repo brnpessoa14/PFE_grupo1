@@ -1,0 +1,14 @@
+# Brainstorm
+
+Para fazermos o brainstorm, utilizamos o método “BrainWriting” que consiste em um dos integrantes do grupo ter um tempo determinado (5 minutos nesse caso) para escrever suas ideias, e após isso, outro integrante do grupo vai ler as ideias escritas e aprimorá-las ou escrever novas ideias.
+
+- O site deve manter um UI simples e objetivo para ser convidativo para o usuário
+- O site deve possuir um formulário de inscrição fácil de ser encontrado, para garantir que o objetivo final do site possa ser realizado
+- O site deve falar sobre o que é um cansat e exemplos de cansat
+- O site deve falar sobre o evento, disponibilizando hora, local e data
+- O site deve conter uma aba de contato, onde os usuários conseguem entrar em contato para tirar dúvidas ou pedirem suporte.
+- O site deve informar os colaboradores do evento
+- O site deve informar os organizadores e mostrar seus prestígios
+- O site tem que ter uma página inicial clara, atraente e fluida
+- O site deve mostrar links para artigos e vídeos sobre as missões anteriores, com imagens e descrições sobre os projetos premiados
+- Formulário de inscrição visível e claro
