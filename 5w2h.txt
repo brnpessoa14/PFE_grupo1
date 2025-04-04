@@ -1,6 +1,6 @@
 # 5W2H
 
-What? Planejar um site para que os colégios possam entender o evento e se inscreverem.
+What? Planejar um site para que os colégios e universidades possam entender o evento e se inscreverem.
 
 Why? Para convidar colégios para participarem e espalhar conhecimento e interesse na área da tecnologia.
 
