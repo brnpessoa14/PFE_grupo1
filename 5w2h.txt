@@ -1,0 +1,15 @@
+# 5W2H
+
+What? Planejar um site para que os colégios possam entender o evento e se inscreverem.
+
+Why? Para convidar colégios para participarem e espalhar conhecimento e interesse na área da tecnologia.
+
+Who? A IBMEC será responsável por realizar e hostear o evento, cuidando do local e data.
+
+Where? Ainda a decidir.
+
+When? O evento acontecerá em junho.
+
+How? Usaremos uma página web para a inscrição de colégios no evento de cansat
+
+How much? Ainda a decidir
