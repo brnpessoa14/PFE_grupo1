@@ -1,0 +1,75 @@
+# Documento de Visão
+
+## **1. Introdução**
+
+**Objetivo do documento** – Este documento visa apresentar a visão geral para o desenvolvimento do site oficial do evento Cansat IBMEC, incluindo seus objetivos, funcionalidades esperadas, público-alvo e escopo geral do sistema.
+
+**Público-alvo** – Colégios do RJ interessados em participar, alunos do ensino médio, professores, coordenadores e visitantes interessados em tecnologia educacional.
+
+**Escopo do sistema** – O sistema será um site web que apresentará o evento, permitirá a inscrição de colégios, trará informações relevantes sobre o Cansat e sobre edições anteriores, e facilitará o contato entre organizadores e participantes.
+
+---
+
+## **2. Posicionamento**
+
+**Oportunidade de mercado** – A crescente valorização de projetos práticos em ambientes educacionais cria uma oportunidade para aproximar colégios da tecnologia e promover atividades de engenharia e programação desde o ensino médio.
+
+**Problema a ser resolvido** – Falta de acesso dos alunos do ensino médio a experiências tecnológicas práticas, e ausência de canais diretos entre instituições de ensino médio e superior.
+
+**Proposta de solução** – Criação de um site funcional, informativo e acessível, que permita a divulgação do evento Cansat, facilite inscrições, ofereça suporte e disponibilize conteúdos sobre o tema.
+
+---
+
+## **3. Descrição dos Stakeholders e Usuários**
+
+**Quem são os envolvidos?** – IBMEC (organizadora), professores e mentores do evento, colégios participantes, equipe de desenvolvimento do site.
+
+**Quais são suas necessidades e expectativas?** – Ter um canal claro de comunicação sobre o evento, com informações detalhadas, formulário de inscrição fácil, visual atrativo e conteúdos de apoio como vídeos e artigos.
+
+---
+
+## **4. Visão Geral do Produto**
+
+**Principais funcionalidades** – Página inicial clara e fluida, seção explicativa sobre o que é um Cansat, exibição de data/local/programação, formulário de inscrição visível, aba de contato, seção de organizadores/colaboradores e área com conteúdos multimídia.
+
+**Diferenciais em relação a soluções existentes** – Integração entre alunos do ensino médio e superior, interface simples e direta, foco em engajamento educacional, uso de exemplos reais de edições anteriores.
+
+---
+
+## **5. Requisitos de Alto Nível**
+
+- **Requisitos Funcionais**
+    - **Exibição de Informações do Evento**: Mostrar detalhes como data, horário, local, programação e palestrantes.
+    - **Inscrições Online**: Permitir que os usuários se cadastrem de forma simples e segura.
+    - **Disponibilização de Contatos**: Fornecer canais de comunicação para dúvidas e suporte.
+    - **Acesso a Materiais Anteriores**: Permitir o download ou visualização de apresentações, vídeos e documentos de edições passadas.
+    - **Navegação Estruturada**: Organizar o site em seções intuitivas para facilitar o acesso às informações.
+- **Requisitos Não Funcionais**
+    - **Responsivo**: Garantir que o site funcione bem em diferentes tamanhos de tela, incluindo dispositivos móveis.
+    - **Leveza e Desempenho**: Otimizar o site para carregar rapidamente, com tempo inferior a 2 segundos.
+    - **Compatibilidade**: Suporte para os principais navegadores modernos (Chrome, Firefox, Edge, Safari).
+    - **Acessibilidade**: Adotar práticas que garantam o acesso para usuários com diferentes necessidades.
+
+---
+
+## **6. Restrições e Premissas**
+
+**Tecnológicas** – O site deve ser compatível com navegadores modernos (Chrome, Firefox, Edge, Safari) e ser desenvolvido com tecnologias web padrão (HTML, CSS, JS).
+
+**Orçamento** – Ainda em definição, com prioridade por hospedagens gratuitas ou institucionais.
+
+**Tempo** – O evento ocorrerá em junho, e o site deve estar pronto com antecedência para divulgação.
+
+**Conteúdo** – Os textos, vídeos e imagens serão fornecidos pelos organizadores do evento.
+
+---
+
+## **7. Riscos e Dependências**
+
+**Fatores críticos para o sucesso do projeto** –
+
+- Definição e liberação de data/local do evento
+- Fornecimento de conteúdos e mídias pelos organizadores
+- Divulgação eficiente para garantir inscrições
+- Estabilidade da hospedagem e suporte técnico para o site
+- Coordenação entre os responsáveis técnicos e acadêmicos
