@@ -1,0 +1,10 @@
+Sites:
+https://www.detran.rj.gov.br
+https://www.art.yale.edu
+
+- Ele foi fácil ou difícil de usar? Por quê?
+
+Não, ambos foram péssimos de usar, tanto o site do Detran quanto o da Yale School of Art apresentam falhas em várias das heurísticas de Nielsen. 
+O site do Detran costuma violar princípios como visibilidade do estado do sistema e design estético e minimalista, por ser confuso, poluído e com feedbacks pouco claros. 
+Já o site da Yale School of Art ignora a consistência, a correspondência com o mundo real e a prevenção de erros, ao adotar um visual caótico, com linguagem visual e navegação que dificultam a compreensão. 
+Ambos comprometem a experiência do usuário por não seguirem boas práticas de usabilidade.
