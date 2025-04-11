@@ -8,3 +8,65 @@ Não, ambos foram péssimos de usar, tanto o site do Detran quanto o da Yale Sch
 O site do Detran costuma violar princípios como visibilidade do estado do sistema e design estético e minimalista, por ser confuso, poluído e com feedbacks pouco claros. 
 Já o site da Yale School of Art ignora a consistência, a correspondência com o mundo real e a prevenção de erros, ao adotar um visual caótico, com linguagem visual e navegação que dificultam a compreensão. 
 Ambos comprometem a experiência do usuário por não seguirem boas práticas de usabilidade.
+
+10 heurísticas de Nielsen
+1. Visibilidade do estado do sistema: O sistema deve sempre manter o usuário informado sobre o que 
+está acontecendo, através de feedback adequado, em tempo razoável.
+
+2. Correspondência entre o sistema e o mundo real: O sistema deve falar a língua do usuário, com 
+palavras, frases e conceitos familiares, em vez de termos técnicos. Deve seguir convenções do mundo 
+real.
+
+3. Controle e liberdade do usuário: Os usuários frequentemente escolhem funções por engano, então 
+devem ter uma maneira de desfazer ou refazer suas ações facilmente.
+
+4. Consistência e padrões: Os usuários não devem ter que se perguntar se diferentes palavras, situações 
+ou ações significam a mesma coisa. Siga convenções da plataforma.
+
+5. Prevenção de erros: Melhor do que uma boa mensagem de erro é um design cuidadoso que evite que 
+o erro aconteça em primeiro lugar.
+
+6. Reconhecimento, em vez de recordação: Minimizar a carga de memória do usuário, tornando 
+objetos, ações e opções visíveis e facilmente acessíveis.
+
+7. Flexibilidade e eficiência de uso: O sistema deve ser eficiente para usuários experientes e flexível 
+para iniciantes. Deve permitir personalizações para acelerar o uso.
+
+8. Design estético e minimalista: As interfaces devem conter apenas informações relevantes para o 
+contexto, sem distrações desnecessárias.
+
+9. Ajudar os usuários a reconhecer, diagnosticar e recuperar-se de erros: As mensagens de erro devem 
+ser expressas em uma linguagem simples e indicar a solução.
+
+10. Ajuda e documentação: Embora o sistema deva ser fácil de usar sem documentação, pode ser 
+necessário fornecer ajuda e documentação acessíveis e eficientes.
+Atividade em Grup
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+### **DETRAN**  
+1. Não OK – Não mostra claramente o que está acontecendo.  
+2. Não OK – Usa linguagem difícil e burocrática.  
+3. Não OK – Difícil desfazer ações e voltar.  
+4. Não OK – Falta de padrão entre páginas.  
+5. Não OK – Facilmente leva o usuário ao erro.  
+6. Não OK – Obriga o usuário a lembrar onde clicar.  
+7. Não OK – Não é prático para inciantes
+8. Não OK – Design poluído e confuso.  
+9. Não OK – Mensagens de erro técnicas e pouco úteis.  
+10. Não OK – Difícil encontrar ajuda ou instruções.
+
+### **YALE**  
+1. Não OK – O site não dá nenhum feedback claro.  
+2. Não OK – Não usa linguagem ou símbolos familiares.  
+3. Não OK – Não há controle ou liberdade para o usuário.  
+4. Não OK – Elementos visuais sem padrão.  
+5. Não OK – Interface favorece erros por ser bagunçada.  
+6. Não OK – Tudo exige esforço de memória.  
+7. Não OK – Nenhuma adaptação para diferentes usuários.  
+8. Não OK – Visual muito carregado e desorganizado.  
+9. Não OK – Não explica erros nem como resolvê-los.  
+10. Não OK – Não oferece documentação ou ajuda visível.
+
+
+
