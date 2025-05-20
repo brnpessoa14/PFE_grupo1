@@ -1,121 +1,262 @@
-/* Reset and base */
-* {
-  margin: 0;
-  padding: 0;
+/* Fonte importada no HTML: Poppins */
+
+/* Reset básico para margens, paddings e box-sizing em todos os elementos */
+*,
+*::before,
+*::after {
+  margin: 0; 
+  padding: 0; 
   box-sizing: border-box;
 }
 
+/* Estilos base do body: fonte, fundo com degradê, cor do texto, suavização */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #2E2E2E;
-  color: #FFFFFF;
-  
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0D1B2A, #1B263B);
+  color: #E0E0E0;
+  line-height: 1.6;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-/* Header/Nav */
-header {
-  background-color: #4B2E83;
-  padding:  5px;
-}
-
-.header-container {
+/* Container centralizador com largura máxima e espaçamento */
+.container {
   width: 90%;
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Estilo do cabeçalho: fundo, padding, sombra e fixação no topo da página */
+header {
+  background-color: #162447;
+  padding: 1rem 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Organiza os elementos do header em linha, espaçados e alinhados */
+.header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+/* Imagem do logo, tamanho fixo e efeito de brilho ao passar o mouse */
 .logo-img {
   height: 60px;
+  width: auto;
+  filter: brightness(100%) contrast(90%);
+  transition: filter 0.3s ease;
 }
 
+.logo-img:hover {
+  filter: brightness(120%) contrast(110%);
+}
+
+/* Menu de navegação: lista horizontal com espaçamento */
 nav ul {
   display: flex;
-  justify-content: center;
-  gap: 24px;
+  gap: 2rem;
   list-style: none;
 }
 
+/* Links do menu: cor, peso da fonte, tamanho e transição da cor */
 nav a {
-  color: #FFFFFF;
-  font-weight: bold;
-  font-size: 0.95rem;
+  color: #E0E0E0;
+  font-weight: 600;
+  font-size: 1.1rem;
+  position: relative;
+  transition: color 0.3s ease;
 }
 
-.corpo{
-padding-left: 15px;
+/* Linha decorativa animada abaixo do link ao passar mouse ou foco */
+nav a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  bottom: -5px;
+  left: 0;
+  background-color: #F76C6C; /* coral vibrante */
+  transition: width 0.3s ease;
+  border-radius: 2px;
 }
 
-/* Main Hero */
-main {
+nav a:hover,
+nav a:focus {
+  color: #F76C6C;
+}
+
+nav a:hover::after,
+nav a:focus::after {
+  width: 100%;
+}
+
+/* Seção principal de destaque (hero): centraliza texto, define espaçamentos */
+.hero {
   text-align: center;
-  padding: 80px 0;
+  padding: 5rem 1rem 6rem;
+  max-width: 900px;
+  margin: 0 auto 3rem;
 }
 
-main h1 {
-  font-size: 2rem;
-  margin-bottom: 8px;
+/* Título da hero: tamanho, cor, estilo e sombra para destaque */
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #F76C6C;
+  text-shadow: 0 0 8px #F76C6C88;
 }
 
-main p {
-  font-size: 1rem;
-  margin-bottom: 32px;
+/* Subtítulo da hero com itálico e cor semi-transparente */
+.hero p {
+  font-size: 1.4rem;
   font-style: italic;
-  color: #CCCCCC;
+  color: #ffffffcc;
+  margin-bottom: 2.5rem;
 }
 
+/* Estilo padrão para botões: cor, arredondamento, sombra e transição */
 .btn {
   display: inline-block;
-  background-color: #C49C3F;
-  color: #FFFFFF;
-  padding: 14px 28px;
-  border-radius: 28px;
-  font-size: 1rem;
-  font-weight: bold;
-  transition: background-color 0.2s ease;
+  background-color: #F76C6C;
+  color: #fff;
+  padding: 1rem 3rem;
+  border-radius: 40px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  cursor: pointer;
+  box-shadow: 0 8px 15px rgba(247, 108, 108, 0.5);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+  user-select: none;
 }
 
-.btn:hover {
-  opacity: 0.9;
+/* Efeito hover e foco do botão: cor mais escura, sombra maior, leve elevação */
+.btn:hover,
+.btn:focus {
+  background-color: #D05050;
+  box-shadow: 0 12px 25px rgba(208, 80, 80, 0.7);
+  transform: translateY(-3px);
+  outline: none;
 }
 
-/* Sections */
-section {
-  padding: 60px 0;
+/* Variante de botão secundário com cor azul e efeitos parecidos */
+.btn-secondary {
+  background-color: #4E91F9;
+  box-shadow: 0 8px 15px rgba(78, 145, 249, 0.5);
 }
 
-section + section {
-  border-top: 1px solid #444444;
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: #3B6FD1;
+  box-shadow: 0 12px 25px rgba(59, 111, 209, 0.7);
 }
 
-section h2 {
-  font-size: 1.3rem;
-  margin-bottom: 16px;
+/* Seções de conteúdo com background semi-transparente e sombra */
+.info-section {
+  max-width: 800px;
+  margin: 0 auto 4rem;
+  padding: 3rem 2rem;
+  border-radius: 15px;
+  background-color: #162447cc;
+  box-shadow: 0 8px 20px rgba(22, 36, 71, 0.8);
+  color: #ddd;
+  transition: background-color 0.3s ease;
 }
 
-section p,
-section ul {
-  font-size: 0.9rem;
-  color: #DDDDDD;
+/* Versão clara das sections, com cor de fundo diferente */
+.info-section.bg-light {
+  background-color: #1B2A47cc;
 }
 
-section ul {
-  list-style: disc inside;
-  margin-left: 16px;
+/* Títulos das seções com cor vibrante e sombra */
+.info-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #F76C6C;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 0 6px #F76C6Caa;
 }
 
-/* Footer */
+/* Parágrafos e listas com tamanho e espaçamento confortável */
+.info-section p,
+.info-section ul {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: #ddd;
+}
+
+/* Listas com marcadores dentro e espaçamento à esquerda */
+.info-section ul {
+  list-style: inside disc;
+  margin-left: 1rem;
+}
+
+/* Estilo para o elemento <address> - normaliza estilo e cor */
+address {
+  font-style: normal;
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: #ccc;
+}
+
+/* Links no endereço em destaque coral e transição suave */
+address a {
+  color: #F76C6C;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+/* Hover e foco destacam o link no endereço */
+address a:hover,
+address a:focus {
+  color: #fff;
+  outline: none;
+}
+
+/* Rodapé com fundo escuro, texto centralizado e espaçamento */
 footer {
-  background-color: #4B2E83;
+  background-color: #162447;
   text-align: center;
-  padding: 12px 0;
-  font-size: 0.8rem;
-  color: #EEEEEE;
+  padding: 1.25rem 1rem;
+  font-size: 0.9rem;
+  color: #888;
+  letter-spacing: 0.05em;
+}
+
+/* ===== RESPONSIVIDADE ===== */
+
+@media (max-width: 900px) {
+  /* Reduz tamanho do título e texto hero em telas médias */
+  .hero h1 {
+    font-size: 2.25rem;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+  }
+
+  /* Diminui espaçamento dos links do menu */
+  nav ul {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  /* Menu fica flexível e centralizado em telas pequenas */
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.7rem;
+  }
+
+  /* Ajusta padding das sections em telas pequenas */
+  .info-section {
+    padding: 2rem 1rem;
+  }
 }
