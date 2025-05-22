@@ -20,8 +20,15 @@
         <img src="img/Ibmec_logo.png" alt="Logotipo do Ibmec" class="logo-img" />
       </a>
 
+      <!-- Botão do menu mobile -->
+      <button class="mobile-menu-btn" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <!-- Navegação principal -->
-      <nav role="navigation" aria-label="Menu principal">
+      <nav class="main-nav" role="navigation" aria-label="Menu principal">
         <ul>
           <li><a href="#sobre">Sobre</a></li>
           <li><a href="#cronograma">Cronograma</a></li>
@@ -95,5 +102,34 @@
     <p>© 2025 CanSat Brasil. Todos os direitos reservados.</p>
   </footer>
 
+  <!-- Overlay para o menu mobile -->
+  <div class="nav-overlay"></div>
+
+  <!-- Script para o menu mobile -->
+  <script>
+    const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+    const mainNav = document.querySelector('.main-nav');
+    const navOverlay = document.querySelector('.nav-overlay');
+    const navLinks = document.querySelectorAll('.main-nav a');
+
+    function toggleMenu() {
+      mobileMenuBtn.classList.toggle('active');
+      mainNav.classList.toggle('active');
+      navOverlay.classList.toggle('active');
+      document.body.style.overflow = mainNav.classList.contains('active') ? 'hidden' : '';
+    }
+
+    mobileMenuBtn.addEventListener('click', toggleMenu);
+    navOverlay.addEventListener('click', toggleMenu);
+
+    // Fecha o menu ao clicar em um link
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        if (mainNav.classList.contains('active')) {
+          toggleMenu();
+        }
+      });
+    });
+  </script>
 </body>
 </html>
