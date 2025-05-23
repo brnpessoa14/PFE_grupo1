@@ -31,7 +31,7 @@ body {
 
 /* Estilo do cabeçalho: fundo, padding, sombra e fixação no topo da página */
 header {
-  background-color: #162447;
+  background-color: #0D3461;
   padding: 1rem 0;
   box-shadow: 0 4px 8px rgba(0,0,0,0.6);
   position: sticky;
