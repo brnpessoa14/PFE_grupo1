@@ -351,3 +351,83 @@ footer {
   margin-top: 1rem;
   display: inline-block;
 }
+
+/* Estilos do Formulário */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #E0E0E0;
+  font-weight: 500;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 2px solid #2A3B5C;
+  border-radius: 8px;
+  background-color: #2A3B5C;
+  color: #FFFFFF;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #F76C6C;
+  background-color: #344B6E;
+}
+
+.form-group input::placeholder {
+  color: #A0A0A0;
+}
+
+/* Ajuste do formulário de inscrição */
+.inscricao-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.inscricao-form .btn {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+/* Responsividade do Formulário */
+@media (max-width: 600px) {
+  .form-group input {
+    padding: 0.7rem;
+  }
+}
+
+/* Estilos da mensagem de sucesso */
+.success-message {
+  text-align: center;
+  max-width: 600px;
+  margin: 4rem auto;
+}
+
+.success-message h2 {
+  color: #4CAF50;
+  margin-bottom: 1.5rem;
+}
+
+.success-message p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #E0E0E0;
+}
+
+.success-message .btn {
+  background-color: #4CAF50;
+  box-shadow: 0 8px 15px rgba(76, 175, 80, 0.5);
+}
+
+.success-message .btn:hover,
+.success-message .btn:focus {
+  background-color: #45a049;
+  box-shadow: 0 12px 25px rgba(69, 160, 73, 0.7);
+}
