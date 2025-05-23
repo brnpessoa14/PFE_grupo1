@@ -9,6 +9,12 @@
   box-sizing: border-box;
 }
 
+/* Ajuste para links âncora */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 200px; /* Altura do header + um pouco de espaço */
+}
+
 /* Estilos base do body: fonte, fundo com degradê, cor do texto, suavização */
 body {
   font-family: 'Poppins', sans-serif;
@@ -190,6 +196,7 @@ nav a:focus::after {
   font-size: 1.125rem;
   line-height: 1.7;
   color: #ddd;
+  margin-bottom: 2rem;
 }
 
 /* Listas com marcadores dentro e espaçamento à esquerda */
@@ -337,4 +344,10 @@ footer {
   .logo-img {
     height: 45px;
   }
+}
+
+/* Ajuste específico para o botão na seção de inscrição */
+#inscricao .btn {
+  margin-top: 1rem;
+  display: inline-block;
 }
