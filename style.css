@@ -233,7 +233,7 @@ footer {
   text-align: center;
   padding: 1.25rem 1rem;
   font-size: 0.9rem;
-  color: #888;
+  color: #ffffff;
   letter-spacing: 0.05em;
 }
 
@@ -377,7 +377,7 @@ footer {
 
 .form-group input:focus {
   outline: none;
-  border-color: #F76C6C;
+  border-color: #d53636;
   background-color: #344B6E;
 }
 
