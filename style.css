@@ -12,10 +12,11 @@
 /* Ajuste para links âncora */
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 200px; /* Altura do header + um pouco de espaço */
+  scroll-padding-top: 140px; /* exemplo, ajuste conforme o valor real */
 }
 
-/* Estilos base do body: fonte, fundo com degradê, cor do texto, suavização */
+/* Estilos
+ base do body: fonte, fundo com degradê, cor do texto, suavização */
 body {
   font-family: 'Poppins', sans-serif;
   background: linear-gradient(135deg, #0D1B2A, #1B263B);
@@ -430,4 +431,12 @@ footer {
 .success-message .btn:focus {
   background-color: #45a049;
   box-shadow: 0 12px 25px rgba(69, 160, 73, 0.7);
+}
+
+section[id]::before {
+  content: "";
+  display: block;
+  height: 120px; /* altura do header */
+  margin-top: -120px;
+  visibility: hidden;
 }
