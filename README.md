@@ -1,6 +1,8 @@
 # PFE_grupo1
 
-Repositório da disciplina front-end
+Repositório da disciplina front-end:
+
+Site responsivo com informações sobre a competição Cansat.
 
 Integrantes do grupo:
 - Bruno Carvalho Pessoa
